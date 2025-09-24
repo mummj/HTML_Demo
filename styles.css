@@ -9,6 +9,8 @@ img{
 #big{
     display:block;
     margin: auto;
+    margin-top:50px;
+    margin-bottom: 50px;
 }
 #small{
     display:inline;
@@ -17,11 +19,30 @@ div{
     display: inline;
     width: 960px;
     margin-left:382px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 p{
     display:inline-block;
-    width: 510px;
+    width: 460px;
+    vertical-align: top;
+    font-size: x-large;
+    margin-left: 50px;
+    margin-top: 50px;
 }
-nav ul li{
-    display: inline-block;
+#logo{
+    display:inline;
+    margin-left:200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ul{
+    display:inline;
+}
+footer{
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 50px;
+    width: 960px;
+    margin-left: 382px;
 }
